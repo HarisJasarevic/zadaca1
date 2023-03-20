@@ -14,29 +14,28 @@ public class Main {
 
         String firstName = "Haris";
         String lastName = "Jasarevic";
-        String firstInitial = "H";
+        char firstInitialH = 72;
         int birthYear = 1987;
         double someRandomNumber = 42.001;
 
         System.out.println(firstName);
         System.out.println(lastName);
-        System.out.println(firstInitial);
+        System.out.println(firstInitialH);
         System.out.println(birthYear);
         System.out.println(someRandomNumber);
 
         //Zadatak 6.
 
-        char firstNameLetter1 = 72;
-        char firstNameLetter2 = 97;
-        char firstNameLetter3 = 114;
-        char firstNameLetter4 = 105;
-        char firstNameLetter5 = 115;
+        char firstNameLetterA = 97;
+        char firstNameLetterR = 114;
+        char firstNameLetterI = 105;
+        char firstNameLetterS = 115;
 
-        System.out.print(firstNameLetter1);
-        System.out.print(firstNameLetter2);
-        System.out.print(firstNameLetter3);
-        System.out.print(firstNameLetter4);
-        System.out.print(firstNameLetter5);
+        System.out.print(firstInitialH);
+        System.out.print(firstNameLetterA);
+        System.out.print(firstNameLetterR);
+        System.out.print(firstNameLetterI);
+        System.out.print(firstNameLetterS);
         System.out.println("\n");
 
         //Zadatak 7:
@@ -51,15 +50,15 @@ public class Main {
         String text1 = "\nThis is a number 2 and its about to double: ";
         int someNumber = 2;
 
-        System.out.println(text1 + someNumber);
-        System.out.println(text1 + (someNumber *2) + ("\nThe original number has been doubled: X times "));
-        System.out.println(text1 + (someNumber *4) + ("\nThe original number has been doubled: XX times "));
-        System.out.println(text1 + (someNumber *8) + ("\nThe original number has been doubled: XXX times "));
-        System.out.println(text1 + (someNumber *16) + ("\nThe original number has been doubled: XXXX times "));
-        System.out.println(text1 + (someNumber *32) + ("\nThe original number has been doubled: XXXXX times "));
-        System.out.println(text1 + (someNumber *64) + ("\nThe original number has been doubled: XXXXXX times "));
-        System.out.println(text1 + (someNumber *128) + ("\nThe original number has been doubled: XXXXXXX times "));
-        System.out.println(text1 + (someNumber *256) + ("\nThe original number has been doubled: XXXXXXXX times "));
+        System.out.print(text1 + someNumber);
+        System.out.print(text1 + (someNumber *2) + ("\nThe original number has been doubled: X times "));
+        System.out.print(text1 + (someNumber *4) + ("\nThe original number has been doubled: XX times "));
+        System.out.print(text1 + (someNumber *8) + ("\nThe original number has been doubled: XXX times "));
+        System.out.print(text1 + (someNumber *16) + ("\nThe original number has been doubled: XXXX times "));
+        System.out.print(text1 + (someNumber *32) + ("\nThe original number has been doubled: XXXXX times "));
+        System.out.print(text1 + (someNumber *64) + ("\nThe original number has been doubled: XXXXXX times "));
+        System.out.print(text1 + (someNumber *128) + ("\nThe original number has been doubled: XXXXXXX times "));
+        System.out.print(text1 + (someNumber *256) + ("\nThe original number has been doubled: XXXXXXXX times "));
 
 
 
